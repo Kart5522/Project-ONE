@@ -3,27 +3,27 @@ package org.alpha;
 import org.testng.annotations.Test;
 
 public class Atest {
-	@Test(groups= {"Sanity","regression"})
+	@Test
 	private void testA1() {
 	System.out.println("Test A1");
 	}
-	@Test(groups= {"Sanity","Testing"})
+	@Test
 	private void testA2() {
 	System.out.println("Test A2");
 	}
-	@Test(groups="Sanity")
+	@Test
 	private void testA3() {
 	System.out.println("Test A3");
 	}
-	@Test(groups="Sandan")
+	@Test
 	private void testA4() {
 	System.out.println("Test A4");
 	}
-	@Test(groups="regression")
+	@Test
 	private void testA5() {
 	System.out.println("Test A5");
 	}
-	@Test(groups="regression")
+	@Test
 	private void testA6() {
 	System.out.println("Test A6");
 	}
@@ -31,7 +31,7 @@ public class Atest {
 	private void testA7() {
 	System.out.println("Test A7");
 	}
-	@Test(groups= {"Sanity","Sandan"})
+	@Test
 	private void testA8() {
 	System.out.println("Test A8");
 	}
