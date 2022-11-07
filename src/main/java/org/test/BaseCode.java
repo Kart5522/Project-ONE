@@ -91,10 +91,11 @@ public class BaseCode {
     public static void DropDown(WebElement D, int d) {
 		Select s=new Select(D);
 		s.selectByIndex(d);
-		
-		
 }
-    
+    public static void Navigate() {
+		driver.navigate().back();
+
+	}
     
     
 	
